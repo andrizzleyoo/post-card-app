@@ -13,6 +13,8 @@
 		C9A0C70119C52622005E99AD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9A0C70019C52622005E99AD /* Images.xcassets */; };
 		C9A0C70419C52622005E99AD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9A0C70219C52622005E99AD /* LaunchScreen.xib */; };
 		C9A0C71019C52622005E99AD /* post_cardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A0C70F19C52622005E99AD /* post_cardTests.swift */; };
+		C9A0C71A19C527C2005E99AD /* SagradaFamilia.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = C9A0C71919C527C2005E99AD /* SagradaFamilia.jpeg */; };
+		C9A0C71C19C527C7005E99AD /* AlbertEinsteinStamp.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C9A0C71B19C527C7005E99AD /* AlbertEinsteinStamp.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,16 +28,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		C9A0C6F419C52622005E99AD /* post card.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "post card.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9A0C6F419C52622005E99AD /* postcard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = postcard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9A0C6F819C52622005E99AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C9A0C6F919C52622005E99AD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C9A0C6FB19C52622005E99AD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C9A0C6FE19C52622005E99AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C9A0C70019C52622005E99AD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		C9A0C70319C52622005E99AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		C9A0C70919C52622005E99AD /* post cardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "post cardTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9A0C70919C52622005E99AD /* postcardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = postcardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9A0C70E19C52622005E99AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C9A0C70F19C52622005E99AD /* post_cardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = post_cardTests.swift; sourceTree = "<group>"; };
+		C9A0C71919C527C2005E99AD /* SagradaFamilia.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SagradaFamilia.jpeg; sourceTree = "<group>"; };
+		C9A0C71B19C527C7005E99AD /* AlbertEinsteinStamp.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = AlbertEinsteinStamp.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +63,7 @@
 		C9A0C6EB19C52622005E99AD = {
 			isa = PBXGroup;
 			children = (
-				C9A0C6F619C52622005E99AD /* post card */,
+				C9A0C6F619C52622005E99AD /* postcard */,
 				C9A0C70C19C52622005E99AD /* post cardTests */,
 				C9A0C6F519C52622005E99AD /* Products */,
 			);
@@ -68,13 +72,13 @@
 		C9A0C6F519C52622005E99AD /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C9A0C6F419C52622005E99AD /* post card.app */,
-				C9A0C70919C52622005E99AD /* post cardTests.xctest */,
+				C9A0C6F419C52622005E99AD /* postcard.app */,
+				C9A0C70919C52622005E99AD /* postcardTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C9A0C6F619C52622005E99AD /* post card */ = {
+		C9A0C6F619C52622005E99AD /* postcard */ = {
 			isa = PBXGroup;
 			children = (
 				C9A0C6F919C52622005E99AD /* AppDelegate.swift */,
@@ -84,12 +88,15 @@
 				C9A0C70219C52622005E99AD /* LaunchScreen.xib */,
 				C9A0C6F719C52622005E99AD /* Supporting Files */,
 			);
+			name = postcard;
 			path = "post card";
 			sourceTree = "<group>";
 		};
 		C9A0C6F719C52622005E99AD /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				C9A0C71B19C527C7005E99AD /* AlbertEinsteinStamp.jpg */,
+				C9A0C71919C527C2005E99AD /* SagradaFamilia.jpeg */,
 				C9A0C6F819C52622005E99AD /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -115,9 +122,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C9A0C6F319C52622005E99AD /* post card */ = {
+		C9A0C6F319C52622005E99AD /* postcard */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C9A0C71319C52622005E99AD /* Build configuration list for PBXNativeTarget "post card" */;
+			buildConfigurationList = C9A0C71319C52622005E99AD /* Build configuration list for PBXNativeTarget "postcard" */;
 			buildPhases = (
 				C9A0C6F019C52622005E99AD /* Sources */,
 				C9A0C6F119C52622005E99AD /* Frameworks */,
@@ -127,14 +134,14 @@
 			);
 			dependencies = (
 			);
-			name = "post card";
+			name = postcard;
 			productName = "post card";
-			productReference = C9A0C6F419C52622005E99AD /* post card.app */;
+			productReference = C9A0C6F419C52622005E99AD /* postcard.app */;
 			productType = "com.apple.product-type.application";
 		};
-		C9A0C70819C52622005E99AD /* post cardTests */ = {
+		C9A0C70819C52622005E99AD /* postcardTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C9A0C71619C52622005E99AD /* Build configuration list for PBXNativeTarget "post cardTests" */;
+			buildConfigurationList = C9A0C71619C52622005E99AD /* Build configuration list for PBXNativeTarget "postcardTests" */;
 			buildPhases = (
 				C9A0C70519C52622005E99AD /* Sources */,
 				C9A0C70619C52622005E99AD /* Frameworks */,
@@ -145,9 +152,9 @@
 			dependencies = (
 				C9A0C70B19C52622005E99AD /* PBXTargetDependency */,
 			);
-			name = "post cardTests";
+			name = postcardTests;
 			productName = "post cardTests";
-			productReference = C9A0C70919C52622005E99AD /* post cardTests.xctest */;
+			productReference = C9A0C70919C52622005E99AD /* postcardTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -168,7 +175,7 @@
 					};
 				};
 			};
-			buildConfigurationList = C9A0C6EF19C52622005E99AD /* Build configuration list for PBXProject "post card" */;
+			buildConfigurationList = C9A0C6EF19C52622005E99AD /* Build configuration list for PBXProject "postcard" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -181,8 +188,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C9A0C6F319C52622005E99AD /* post card */,
-				C9A0C70819C52622005E99AD /* post cardTests */,
+				C9A0C6F319C52622005E99AD /* postcard */,
+				C9A0C70819C52622005E99AD /* postcardTests */,
 			);
 		};
 /* End PBXProject section */
@@ -193,6 +200,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				C9A0C6FF19C52622005E99AD /* Main.storyboard in Resources */,
+				C9A0C71A19C527C2005E99AD /* SagradaFamilia.jpeg in Resources */,
+				C9A0C71C19C527C7005E99AD /* AlbertEinsteinStamp.jpg in Resources */,
 				C9A0C70419C52622005E99AD /* LaunchScreen.xib in Resources */,
 				C9A0C70119C52622005E99AD /* Images.xcassets in Resources */,
 			);
@@ -230,7 +239,7 @@
 /* Begin PBXTargetDependency section */
 		C9A0C70B19C52622005E99AD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = C9A0C6F319C52622005E99AD /* post card */;
+			target = C9A0C6F319C52622005E99AD /* postcard */;
 			targetProxy = C9A0C70A19C52622005E99AD /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -338,7 +347,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "post card/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = postcard;
 			};
 			name = Debug;
 		};
@@ -348,7 +357,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "post card/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = postcard;
 			};
 			name = Release;
 		};
@@ -366,7 +375,7 @@
 				);
 				INFOPLIST_FILE = "post cardTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = postcardTests;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/post card.app/post card";
 			};
 			name = Debug;
@@ -381,7 +390,7 @@
 				);
 				INFOPLIST_FILE = "post cardTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = postcardTests;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/post card.app/post card";
 			};
 			name = Release;
@@ -389,7 +398,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C9A0C6EF19C52622005E99AD /* Build configuration list for PBXProject "post card" */ = {
+		C9A0C6EF19C52622005E99AD /* Build configuration list for PBXProject "postcard" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C9A0C71119C52622005E99AD /* Debug */,
@@ -398,7 +407,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C9A0C71319C52622005E99AD /* Build configuration list for PBXNativeTarget "post card" */ = {
+		C9A0C71319C52622005E99AD /* Build configuration list for PBXNativeTarget "postcard" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C9A0C71419C52622005E99AD /* Debug */,
@@ -406,7 +415,7 @@
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		C9A0C71619C52622005E99AD /* Build configuration list for PBXNativeTarget "post cardTests" */ = {
+		C9A0C71619C52622005E99AD /* Build configuration list for PBXNativeTarget "postcardTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C9A0C71719C52622005E99AD /* Debug */,
